@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         this.binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(this.binding.getRoot());
 
+        Utils.log("namnam");
+
         int color = Color.parseColor("#2f80ec");
         binding.ivColor.setBackgroundColor(color);
         this.binding.rgbPicker.setColor(color);

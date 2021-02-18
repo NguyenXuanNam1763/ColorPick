@@ -3,8 +3,7 @@ package com.example.materialdesignexp.madrapps.pikolo.components
 import android.graphics.*
 import android.graphics.Color.*
 import android.graphics.Paint.Cap.ROUND
-import android.graphics.Paint.Style.FILL
-import android.graphics.Paint.Style.STROKE
+import android.graphics.Paint.Style.*
 import androidx.core.graphics.ColorUtils
 
 

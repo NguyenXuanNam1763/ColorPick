@@ -64,8 +64,6 @@ internal abstract class ColorComponent(val metrics: Metrics, val paints: Paints)
         return isTouched
     }
 
-    private val TAG = "namnx"
-
     operator fun contains(point: PointF): Boolean {
         val touchRadius = indicatorRadius + indicatorRadius * 0.2
         return point.x in (indicatorX - touchRadius)..(indicatorX + touchRadius) && point.y in (indicatorY - touchRadius)..(indicatorY + touchRadius)
